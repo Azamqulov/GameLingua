@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameLingua | Localizzazione Professionale di Videogiochi</title>
+  <meta name="description" content="Servizi professionali di localizzazione di videogiochi: traduzione, adattamento, doppiaggio e UI multilingue per portare il tuo gioco in tutto il mondo.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader-text">GameLingua</div>
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-dot"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <a href="index.html">
+            <span class="logo-icon"><i class="fas fa-language"></i></span>
+            <span class="logo-text">Game<span class="highlight">Lingua</span></span>
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#servizi" class="nav-link">Servizi</a></li>
+            <li><a href="#processo" class="nav-link">Processo</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#team" class="nav-link">Team</a></li>
+            <li><a href="#contatti" class="nav-link">Contatti</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <!-- <div class="language-selector">
+            <span class="current-lang">IT</span>
+            <ul class="language-dropdown">
+              <li><a href="#" class="active">Italiano</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Español</a></li>
+              <li><a href="#">日本語</a></li>
+            </ul>
+          </div> -->
+          <!-- <a href="#contatti" class="btn btn-primary">Richiedi Preventivo</a> -->
+          <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-particles" id="particles-js"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+          Localizzazione <span class="gradient-text">Professionale</span> di Videogiochi
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
+          Portiamo il tuo gioco in tutto il mondo con traduzioni accurate, doppiaggio professionale e adattamento culturale
+        </p>
+        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+          <a href="#servizi" class="btn btn-primary">Scopri i Nostri Servizi</a>
+          <a href="#portfolio" class="btn btn-outline">Vedi i Nostri Lavori</a>
+        </div>
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="800">
+          <div class="stat-item">
+            <span class="stat-number" data-count="25">0</span>
+            <span class="stat-text">Lingue Supportate</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="500">0</span>
+            <span class="stat-text">Progetti Completati</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="98">0</span>
+            <span class="stat-text">Clienti Soddisfatti</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEdhbWUlMjB2b2ljZSUyMG92ZXIlMjByZWNvcmRpbmd8ZW58MHx8MHx8fDA%3D" alt="Localizzazione di videogiochi">
+        <div class="floating-element element-1">
+          <i class="fas fa-globe"></i>
+          <span>25+ Lingue</span>
+        </div>
+        <div class="floating-element element-2">
+          <i class="fas fa-headset"></i>
+          <span>Doppiaggio</span>
+        </div>
+        <div class="floating-element element-3">
+          <i class="fas fa-code"></i>
+          <span>UI Multilingue</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span class="scroll-text">Scorri Giù</span>
+      <span class="scroll-icon"><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section class="clients">
+    <div class="container">
+      <div class="clients-slider">
+        <div class="client-logo" data-aos="fade-up">
+          <img src="https://plus.unsplash.com/premium_photo-1679969251291-985f69dbdf0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VmlkZW8lMjBnYW1lJTIwbGFuZ3VhZ2UlMjBzdXBwb3J0fGVufDB8fDB8fHww" alt="Cliente 1">
+        </div>
+        <div class="client-logo" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://plus.unsplash.com/premium_photo-1682088486926-42e23e19f421?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fFZpZGVvJTIwZ2FtZSUyMGxhbmd1YWdlJTIwc3VwcG9ydHxlbnwwfHwwfHx8MA%3D%3D" alt="Cliente 2">
+        </div>
+        <div class="client-logo" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFZpZGVvJTIwZ2FtZSUyMGxhbmd1YWdlJTIwc3VwcG9ydHxlbnwwfHwwfHx8MA%3D%3D" alt="Cliente 3">
+        </div>
+        <div class="client-logo" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://plus.unsplash.com/premium_photo-1683141217151-6d6944aba786?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VmlkZW8lMjBnYW1lJTIwbGFuZ3VhZ2UlMjBzdXBwb3J0fGVufDB8fDB8fHww" alt="Cliente 4">
+        </div>
+        <div class="client-logo" data-aos="fade-up" data-aos-delay="400">
+          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8VmlkZW8lMjBnYW1lJTIwbGFuZ3VhZ2UlMjBzdXBwb3J0fGVufDB8fDB8fHww" alt="Cliente 5">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services section" id="servizi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-aos="fade-up">I Nostri Servizi</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
+          Soluzioni Complete di <span class="gradient-text">Localizzazione</span>
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="400">
+          Offriamo una gamma completa di servizi di localizzazione per portare il tuo videogioco a un pubblico globale, mantenendo l'essenza e l'esperienza originale.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up">
+          <div class="service-icon">
+            <i class="fas fa-language"></i>
+          </div>
+          <h3>Traduzione di Giochi</h3>
+          <p>Traduciamo tutti gli elementi testuali del tuo gioco, dai menu alle descrizioni, dai dialoghi alle istruzioni, mantenendo il tono e lo stile originale.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Traduzione di UI e menu</li>
+            <li><i class="fas fa-check"></i> Localizzazione di dialoghi</li>
+            <li><i class="fas fa-check"></i> Adattamento culturale</li>
+            <li><i class="fas fa-check"></i> QA linguistico</li>
+          </ul>
+          <a href="#contatti" class="service-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-microphone-alt"></i>
+          </div>
+          <h3>Doppiaggio Professionale</h3>
+          <p>Diamo voce ai tuoi personaggi in diverse lingue con doppiatori professionisti, garantendo emozioni autentiche e una recitazione di alta qualità.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Casting di voci professioniste</li>
+            <li><i class="fas fa-check"></i> Registrazione in studio</li>
+            <li><i class="fas fa-check"></i> Direzione del doppiaggio</li>
+            <li><i class="fas fa-check"></i> Post-produzione audio</li>
+          </ul>
+          <a href="#contatti" class="service-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <i class="fas fa-film"></i>
+          </div>
+          <h3>Editing Video e Sottotitoli</h3>
+          <p>Adattiamo i tuoi video e cutscene per il pubblico internazionale con sottotitoli professionali, sincronizzazione labiale e editing video localizzato.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Sottotitolaggio multilingue</li>
+            <li><i class="fas fa-check"></i> Sincronizzazione labiale</li>
+            <li><i class="fas fa-check"></i> Editing di cutscene</li>
+            <li><i class="fas fa-check"></i> Adattamento di trailer</li>
+          </ul>
+          <a href="#contatti" class="service-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h3>UI Multilingue</h3>
+          <p>Adattiamo l'interfaccia utente del tuo gioco per supportare più lingue, garantendo un'esperienza fluida e naturale per i giocatori di tutto il mondo.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Implementazione di font multilingue</li>
+            <li><i class="fas fa-check"></i> Adattamento del layout</li>
+            <li><i class="fas fa-check"></i> Testing di compatibilità</li>
+            <li><i class="fas fa-check"></i> Ottimizzazione per diverse lingue</li>
+          </ul>
+          <a href="#contatti" class="service-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process section" id="processo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-aos="fade-up">Il Nostro Processo</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
+          Come Lavoriamo per <span class="gradient-text">Localizzare</span> il Tuo Gioco
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="400">
+          Il nostro processo di localizzazione è stato perfezionato nel corso degli anni per garantire risultati di alta qualità, rispettando tempistiche e budget.
+        </p>
+      </div>
+      <div class="process-timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-number">01</div>
+          <div class="timeline-content">
+            <h3>Analisi e Pianificazione</h3>
+            <p>Analizziamo il tuo gioco, identifichiamo gli elementi da localizzare e creiamo un piano dettagliato che include lingue target, tempistiche e budget.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-number">02</div>
+          <div class="timeline-content">
+            <h3>Estrazione e Preparazione</h3>
+            <p>Estraiamo tutti i testi, audio e video da localizzare, organizziamo i file in un formato adatto e prepariamo glossari e guide di stile specifiche per il tuo gioco.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-number">03</div>
+          <div class="timeline-content">
+            <h3>Traduzione e Adattamento</h3>
+            <p>I nostri traduttori specializzati in videogiochi traducono e adattano i contenuti, assicurando che il tono, lo stile e i riferimenti culturali siano appropriati per il pubblico target.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-number">04</div>
+          <div class="timeline-content">
+            <h3>Registrazione Audio</h3>
+            <p>Se richiesto, registriamo il doppiaggio con attori professionisti, sotto la direzione di esperti del settore, per garantire prestazioni vocali di alta qualità.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-number">05</div>
+          <div class="timeline-content">
+            <h3>Implementazione e Testing</h3>
+            <p>Implementiamo i contenuti localizzati nel gioco e conduciamo test approfonditi per verificare la correttezza linguistica, la formattazione e l'integrazione tecnica.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-number">06</div>
+          <div class="timeline-content">
+            <h3>Revisione e Consegna</h3>
+            <p>Effettuiamo una revisione finale di tutti i contenuti localizzati, apportiamo eventuali correzioni e consegniamo il prodotto finito, pronto per il lancio globale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-aos="fade-up">I Nostri Lavori</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
+          Portfolio di <span class="gradient-text">Progetti</span> Completati
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="400">
+          Esplora alcuni dei nostri progetti di localizzazione più recenti e scopri come abbiamo aiutato sviluppatori e publisher a raggiungere un pubblico globale.
+        </p>
+      </div>
+      <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="600">
+        <button class="filter-btn active" data-filter="all">Tutti</button>
+        <button class="filter-btn" data-filter="traduzione">Traduzione</button>
+        <button class="filter-btn" data-filter="doppiaggio">Doppiaggio</button>
+        <button class="filter-btn" data-filter="video">Editing Video</button>
+        <button class="filter-btn" data-filter="ui">UI Multilingue</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="traduzione doppiaggio" data-aos="fade-up">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RmFudGFzeSUyMFF1ZXN0JTNBJTIwTGVnZW5kcyUyMGdhbWV8ZW58MHx8MHx8fDA%3D" alt="Progetto di Localizzazione 1">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Fantasy Quest: Legends</h3>
+                <p>Traduzione e doppiaggio completo in 8 lingue</p>
+                <a href="#" class="portfolio-link">Vedi Dettagli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="ui video" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fEZhbnRhc3klMjBRdWVzdCUzQSUyMExlZ2VuZHMlMjBnYW1lfGVufDB8fDB8fHww" alt="Progetto di Localizzazione 2">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Cyber Revolution 2077</h3>
+                <p>UI multilingue e adattamento video per 12 lingue</p>
+                <a href="#" class="portfolio-link">Vedi Dettagli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="doppiaggio" data-aos="fade-up" data-aos-delay="400">
+          <div class="portfolio-image">
+            <img src="https://media.istockphoto.com/id/2169926198/photo/spaceship-pilot-travels-to-world-from-orbital-mothership-hangar.webp?a=1&b=1&s=612x612&w=0&k=20&c=oIfFygMA5et9JbBwc8kVPUn--91q81rv-5ArJd9NFMg=" alt="Progetto di Localizzazione 3">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Space Odyssey: Final Frontier</h3>
+                <p>Doppiaggio professionale in 5 lingue</p>
+                <a href="#" class="portfolio-link">Vedi Dettagli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="traduzione ui" data-aos="fade-up" data-aos-delay="600">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1721333088904-5f3e01559708?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFJhY2luZyUyMENoYW1waW9ucyUyMGdhbWV8ZW58MHx8MHx8fDA%3D" alt="Progetto di Localizzazione 4">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Racing Champions</h3>
+                <p>Traduzione e adattamento UI per 15 lingue</p>
+                <a href="#" class="portfolio-link">Vedi Dettagli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="video doppiaggio" data-aos="fade-up" data-aos-delay="800">
+          <div class="portfolio-image">
+            <img src="https://media.istockphoto.com/id/1331692263/photo/digital-objects-in-the-form-of-cubes-network-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=0rVBWLz_l7ZEb1GGo9L01dU6ftlDcuBNDQXTgA6fawA=" alt="Progetto di Localizzazione 5">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Medieval Kingdom: Rise of Empires</h3>
+                <p>Editing video e doppiaggio per 10 lingue</p>
+                <a href="#" class="portfolio-link">Vedi Dettagli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="traduzione ui" data-aos="fade-up" data-aos-delay="1000">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fFByb2dldHRvJTIwZGklMjBMb2NhbGl6emF6aW9uZSUyMGdhbWV8ZW58MHx8MHx8fDA%3D" alt="Progetto di Localizzazione 6">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Puzzle Master: Mind Challenge</h3>
+                <p>Traduzione e UI multilingue per 20 lingue</p>
+                <a href="#" class="portfolio-link">Vedi Dettagli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-more" data-aos="fade-up" data-aos-delay="1200">
+        <a href="#" class="btn btn-primary">Vedi Altri Progetti</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-aos="fade-up">Il Nostro Team</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
+          Esperti di <span class="gradient-text">Localizzazione</span> di Videogiochi
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="400">
+          Il nostro team è composto da professionisti appassionati di videogiochi e lingue, con anni di esperienza nel settore della localizzazione.
+        </p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card" data-aos="fade-up">
+          <div class="team-image">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fFByb2dldHRvJTIwZGklMjBMb2NhbGl6emF6aW9uZSUyMGdhbWV8ZW58MHx8MHx8fDA%3D" alt="Marco Rossi">
+            <div class="team-social">
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Marco Rossi</h3>
+            <p>Direttore di Localizzazione</p>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-image">
+            <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFByb2dldHRvJTIwZGklMjBMb2NhbGl6emF6aW9uZSUyMGdhbWV8ZW58MHx8MHx8fDA%3D" alt="Laura Bianchi">
+            <div class="team-social">
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Laura Bianchi</h3>
+            <p>Responsabile Traduzioni</p>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="team-image">
+            <img src="https://images.unsplash.com/photo-1533236897111-3e94666b2edf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fFByb2dldHRvJTIwZGklMjBMb2NhbGl6emF6aW9uZSUyMGdhbWV8ZW58MHx8MHx8fDA%3D" alt="Alessandro Verdi">
+            <div class="team-social">
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Alessandro Verdi</h3>
+            <p>Direttore del Doppiaggio</p>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="team-image">
+            <img src="https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxQcm9nZXR0byUyMGRpJTIwTG9jYWxpenphemlvbmUlMjBnYW1lfGVufDB8fDB8fHww" alt="Giulia Ferrari">
+            <div class="team-social">
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Giulia Ferrari</h3>
+            <p>Specialista UI Multilingue</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-aos="fade-up">Testimonianze</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
+          Cosa Dicono i Nostri <span class="gradient-text">Clienti</span>
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="400">
+          Scopri le opinioni di sviluppatori e publisher che hanno scelto GameLingua per la localizzazione dei loro videogiochi.
+        </p>
+      </div>
+      <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="600">
+        <div class="testimonial-item active">
+          <div class="testimonial-content">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "GameLingua ha superato le nostre aspettative. La loro attenzione ai dettagli e la comprensione del nostro gioco hanno reso la localizzazione un processo fluido. I nostri giocatori internazionali hanno apprezzato molto la qualità delle traduzioni e del doppiaggio."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fHww" alt="Roberto Neri">
+              <div>
+                <h4>Roberto Neri</h4>
+                <p>CEO, NexusGames</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-content">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Abbiamo collaborato con GameLingua per la localizzazione del nostro RPG in 12 lingue. Il loro team ha catturato perfettamente il tono e l'atmosfera del gioco in ogni lingua, mantenendo coerenza e qualità. Continueremo sicuramente a lavorare con loro per i nostri futuri progetti."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aHVtYW4lMjBmYWNlfGVufDB8fDB8fHww" alt="Maria Conti">
+              <div>
+                <h4>Maria Conti</h4>
+                <p>Direttore Creativo, Arcane Studios</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-content">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="testimonial-text">
+              "La localizzazione è un aspetto cruciale per il successo globale di un gioco, e GameLingua lo sa bene. Il loro approccio professionale, combinato con la passione per i videogiochi, ha fatto la differenza. Hanno rispettato le scadenze e il budget, offrendo un servizio di alta qualità."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1548544149-4835e62ee5b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHVtYW4lMjBmYWNlfGVufDB8fDB8fHww" alt="Luca Esposito">
+              <div>
+                <h4>Luca Esposito</h4>
+                <p>Producer, Digital Dreams</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta section">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <h2>Pronto a Portare il Tuo Gioco in Tutto il Mondo?</h2>
+        <p>Contattaci oggi per un preventivo gratuito e scopri come possiamo aiutarti a localizzare il tuo videogioco per un pubblico globale.</p>
+        <a href="#contatti" class="btn btn-primary">Richiedi un Preventivo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contatti">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-aos="fade-up">Contattaci</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
+          Parliamo del Tuo <span class="gradient-text">Progetto</span>
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="400">
+          Siamo qui per rispondere a tutte le tue domande e aiutarti a portare il tuo gioco a un pubblico globale. Compila il modulo sottostante e ti contatteremo al più presto.
+        </p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Indirizzo</h3>
+              <p>Via Roma 123, 20123 Milano, Italia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Telefono</h3>
+              <p>+39 02 1234567</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="422b2c242d0225232f272e2b2c2537236c2b36">[email&#160;protected]</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Orari</h3>
+              <p>Lunedì - Venerdì: 9:00 - 18:00</p>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form" data-aos="fade-left">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Nome e Cognome" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="company" name="company" placeholder="Azienda">
+            </div>
+            <div class="form-group">
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Seleziona un Servizio</option>
+                <option value="traduzione">Traduzione di Giochi</option>
+                <option value="doppiaggio">Doppiaggio Professionale</option>
+                <option value="video">Editing Video e Sottotitoli</option>
+                <option value="ui">UI Multilingue</option>
+                <option value="altro">Altro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Il tuo messaggio" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html">
+            <span class="logo-icon"><i class="fas fa-language"></i></span>
+            <span class="logo-text">Game<span class="highlight">Lingua</span></span>
+          </a>
+          <p>Servizi professionali di localizzazione di videogiochi per portare il tuo gioco in tutto il mondo.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Link Rapidi</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="#processo">Processo</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Servizi</h3>
+          <ul>
+            <li><a href="#servizi">Traduzione di Giochi</a></li>
+            <li><a href="#servizi">Doppiaggio Professionale</a></li>
+            <li><a href="#servizi">Editing Video e Sottotitoli</a></li>
+            <li><a href="#servizi">UI Multilingue</a></li>
+            <li><a href="#servizi">QA Linguistico</a></li>
+            <li><a href="#servizi">Consulenza Culturale</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>Iscriviti alla nostra newsletter per ricevere aggiornamenti e novità sul mondo della localizzazione di videogiochi.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="La tua email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 GameLingua. Tutti i diritti riservati.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-conditions.html">Termini e Condizioni</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
